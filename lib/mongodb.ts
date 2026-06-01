@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = "mongodb://localhost:27017/expense_tracker";
+const MONGODB_URI = "mongodb+srv://surya:Hardwork%4018@cluster0.abcde.mongodb.net/expense_tracker?retryWrites=true&w=majority";
 
 if (!MONGODB_URI) throw new Error('MONGODB_URI is not defined');
 
