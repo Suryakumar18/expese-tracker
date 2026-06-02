@@ -46,7 +46,7 @@ export function TransactionForm({ open, onClose, transaction }: Props) {
 
   return (
     <Dialog open={open} onOpenChange={onClose}>
-      <DialogContent className="bg-card border-border/60 shadow-2xl p-0 overflow-hidden gap-0 sm:max-w-md w-full bottom-0 sm:bottom-auto translate-y-0 rounded-t-3xl sm:rounded-2xl max-h-[92dvh] overflow-y-auto">
+      <DialogContent showCloseButton={false} className="bg-card border-border/60 shadow-2xl p-0 overflow-hidden gap-0 max-h-[92dvh] overflow-y-auto w-full max-w-full rounded-t-3xl top-auto bottom-0 inset-x-0 translate-x-0 translate-y-0 sm:top-1/2 sm:bottom-auto sm:left-1/2 sm:inset-x-auto sm:-translate-x-1/2 sm:-translate-y-1/2 sm:max-w-md sm:rounded-2xl">
 
         {/* Handle bar */}
         <div className="flex justify-center pt-3 pb-1 sm:hidden">
